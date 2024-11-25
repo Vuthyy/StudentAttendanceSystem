@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>Login</title>
     <!-- Css here -->
-    <link href="css/output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-gray-100 flex items-center justify-center h-screen">
     <div class="w-full max-w-sm">
@@ -13,7 +13,7 @@
         method="POST"
         class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
       >
-        <h1 class="text-xl font-bold mb-4 text-center">
+        <h1 class="text-red-700 text-9xlxl font-bold mb-4 text-center">
           Student Attendance System
         </h1>
         <div class="mb-4">
