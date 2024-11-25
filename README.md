@@ -23,8 +23,10 @@ Follow these steps to clone the repository and place it in the correct directory
     C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\StudentAttendanceSystem
 
 3. **How to Run the Project**
-    Open your IDE and type ```bash npm install then
-    Start the Apache Tomcat Server:
+    Open your IDE and type:
+    ```bash
+    npm install
+    Then start the Apache Tomcat Server:
 
     Navigate to the Tomcat bin folder, typically:
 
