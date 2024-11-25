@@ -23,9 +23,8 @@ Follow these steps to clone the repository and place it in the correct directory
     C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\StudentAttendanceSystem
 
 3. **How to Run the Project**
-    Open your IDE and type:
-    ```npm install ```
-    Then start the Apache Tomcat Server:
+
+    Start the Apache Tomcat Server:
 
     Navigate to the Tomcat bin folder, typically:
 
@@ -41,4 +40,9 @@ Follow these steps to clone the repository and place it in the correct directory
     Navigate to the following URL:
     http://localhost:8080/StudentAttendanceSystem/login.jsp
     Login Page:
+
+6. **Note**
+   Need to add this one for styleCSS
+   ```bash
+   <script src="https://cdn.tailwindcss.com"></script>
 
