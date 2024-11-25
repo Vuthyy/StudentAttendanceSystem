@@ -38,7 +38,7 @@ Follow these steps to clone the repository and place it in the correct directory
     Open the Browser:
 
     Navigate to the following URL:
-    http://localhost:8080/StudentAttendanceSystem/web/login.jsp
+    http://localhost:8080/StudentAttendanceSystem/src/web/login.jsp
     Login Page:
 
 6. **Note**
