@@ -24,8 +24,7 @@ Follow these steps to clone the repository and place it in the correct directory
 
 3. **How to Run the Project**
     Open your IDE and type:
-    ```bash
-    npm install
+    ```bash npm install ```
     Then start the Apache Tomcat Server:
 
     Navigate to the Tomcat bin folder, typically:
