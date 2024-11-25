@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Login</title>
+    <!-- Css here -->
     <link href="css/output.css" rel="stylesheet" />
   </head>
   <body class="bg-gray-100 flex items-center justify-center h-screen">
