@@ -1,7 +1,8 @@
 package dao;
 
-import util.DBConnection;
 import java.sql.*;
+
+import web.util.DBConnection;
 
 public class UserDAO {
 

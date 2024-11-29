@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <title>Signup</title>
-    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <h2>Signup</h2>

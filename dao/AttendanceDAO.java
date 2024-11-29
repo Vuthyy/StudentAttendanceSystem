@@ -1,9 +1,10 @@
 package dao;
 
-import util.DBConnection;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+
+import web.util.DBConnection;
 
 public class AttendanceDAO {
 
