@@ -7,24 +7,46 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h2>Signup</h2>
-    <form action="signup.jsp" method="POST">
-        <label>Name:</label>
-        <input type="text" name="name" required>
-        <label>Email:</label>
-        <input type="email" name="email" required>
-        <label>Username:</label>
-        <input type="text" name="username" required>
-        <label>Password:</label>
-        <input type="password" name="password" required>
-        <label>Role:</label>
-        <select name="role">
-            <option value="admin">Admin</option>
-            <option value="teacher">Teacher</option>
-            <option value="student">Student</option>
-        </select>
-        <button type="submit">Signup</button>
-    </form>
+    <div class="max-w-4xl mx-auto font-[sans-serif] p-6">
+        <div class="text-center mb-8">
+          <h4 class="text-gray-800 text-xl font-bold mt-6">Sign up into your account</h4>
+        </div>
+  
+        <form action="signup.jsp" method="POST">
+          <div class="grid sm:grid-cols-2 gap-8">
+            <div>
+              <label class="text-gray-800 text-sm mb-2 block">Name</label>
+              <input type="text" name="name" class="bg-gray-100 w-full text-gray-800 text-sm px-4 py-3.5 rounded-md focus:bg-transparent outline-blue-500 transition-all" placeholder="Enter name" />
+            </div>
+            <div>
+              <label class="text-gray-800 text-sm mb-2 block">Email Id</label>
+              <input type="email" name="email" required class="bg-gray-100 w-full text-gray-800 text-sm px-4 py-3.5 rounded-md focus:bg-transparent outline-blue-500 transition-all" placeholder="Enter last name" />
+            </div>
+            <div>
+              <label class="text-gray-800 text-sm mb-2 block">Username</label>
+              <input type="text" name="username" required class="bg-gray-100 w-full text-gray-800 text-sm px-4 py-3.5 rounded-md focus:bg-transparent outline-blue-500 transition-all" placeholder="Enter email" />
+            </div>
+            <div>
+              <label class="text-gray-800 text-sm mb-2 block">Password</label>
+              <input type="password" name="password" required class="bg-gray-100 w-full text-gray-800 text-sm px-4 py-3.5 rounded-md focus:bg-transparent outline-blue-500 transition-all" placeholder="Enter password" />
+            </div>
+            <div>
+                <label class="text-gray-800 text-sm mb-2 block">Select Roles</label>
+                <select name="role" class="bg-gray-100 border border-gray-300 text-gray-800 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                    <option selected>Choose a role</option>
+                    <option value="admin">Admin</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="student">Student</option>
+                </select>
+              </div>
+          </div>
+          <div class="!mt-12">
+            <button type="submit" class="py-3.5 px-7 text-sm font-semibold tracking-wider rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none">
+              Sign up
+            </button>
+          </div>
+        </form>
+      </div>
 
     <%
         if ("POST".equalsIgnoreCase(request.getMethod())) {
